@@ -1,0 +1,315 @@
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 37 | Location 259-259 | Added on Friday, February 2, 2024 8:30:11 PM
+
+binary search will take log2
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 46 | Location 322-323 | Added on Friday, February 2, 2024 8:34:36 PM
+
+Big O doesn’t tell you the speed in seconds.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 46 | Location 322-323 | Added on Friday, February 2, 2024 8:34:57 PM
+
+Big O doesn’t tell you the speed in seconds. Big O notation lets you compare the number of operations. It tells you how fast the algorithm grows.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 47 | Location 327-328 | Added on Friday, February 2, 2024 8:36:39 PM
+
+It’s called Big O notation because you put a “big O” in front of the number of operations (it sounds like a joke, but it’s true!).
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 51 | Location 346-346 | Added on Friday, February 2, 2024 8:37:33 PM
+
+Big O notation is about the worst-case scenario.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 51 | Location 352-356 | Added on Friday, February 2, 2024 8:38:36 PM
+
+O(log n), also known as log time. Example: Binary search. O(n), also known as linear time. Example: Simple search. O(n * log n). Example: A fast sorting algorithm, like quicksort (coming up in chapter 4). O(n2). Example: A slow sorting algorithm, like selection sort (coming up in chapter 2). O(n!). Example: A really slow algorithm, like the traveling salesperson (coming up next!).
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 53 | Location 367-368 | Added on Friday, February 2, 2024 8:39:07 PM
+
+O(log n) is faster than O(n), but it gets a lot faster as the list of items you’re searching grows.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 58 | Location 391-392 | Added on Friday, February 2, 2024 8:41:06 PM
+
+Binary search is a lot faster than simple search. O(log n) is faster than O(n), but it gets a lot faster once the list of items you’re searching through grows. Algorithm speed isn’t measured in seconds.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 58 | Location 391-394 | Added on Friday, February 2, 2024 8:41:25 PM
+
+Binary search is a lot faster than simple search. O(log n) is faster than O(n), but it gets a lot faster once the list of items you’re searching through grows. Algorithm speed isn’t measured in seconds. Algorithm times are measured in terms of growth of an algorithm. Algorithm times are written in Big O notation.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 74 | Location 481-481 | Added on Saturday, February 3, 2024 10:13:04 PM
+
+arrays are faster at reads. This is because they provide random access.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 82 | Location 521-521 | Added on Saturday, February 3, 2024 10:13:47 PM
+
+constants like ½ are ignored in Big O notation
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 82 | Location 524-524 | Added on Saturday, February 3, 2024 10:14:08 PM
+
+Quicksort is a faster sorting algorithm that only takes O(n log n) time.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 84 | Location 531-532 | Added on Saturday, February 3, 2024 10:14:43 PM
+
+Arrays allow fast reads. Linked lists allow fast inserts and deletes. All elements in the array should be the same type (all ints, all doubles, and so on).
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 90 | Location 558-558 | Added on Saturday, February 3, 2024 10:16:23 PM
+
+Recursion is where a function calls itself.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 90 | Location 561-561 | Added on Saturday, February 3, 2024 10:16:48 PM
+
+“Loops may achieve a performance gain for your program. Recursion may achieve a performance gain for your programmer.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 90 | Location 561-562 | Added on Saturday, February 3, 2024 10:17:00 PM
+
+“Loops may achieve a performance gain for your program. Recursion may achieve a performance gain for your programmer. Choose which is more important in your situation!”[
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 92 | Location 572-572 | Added on Saturday, February 3, 2024 10:17:42 PM
+
+every recursive function has two parts: the base case,
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 98 | Location 602-602 | Added on Saturday, February 3, 2024 10:20:42 PM
+
+when you call a function from another function, the calling function is paused in a partially completed state.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 98 | Location 608-609 | Added on Saturday, February 3, 2024 10:24:42 PM
+
+This stack, used to save the variables for multiple functions, is called the call stack.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 105 | Location 629-630 | Added on Saturday, February 3, 2024 10:26:22 PM
+
+tail recursion. That’s an advanced recursion topic that is out of the scope of this book. It’s also only supported by some languages, not all.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 106 | Location 634-634 | Added on Saturday, February 3, 2024 10:26:39 PM
+
+Every recursive function has two cases: the base case and the recursive case.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 106 | Location 635-635 | Added on Saturday, February 3, 2024 10:27:19 PM
+
+All function calls go onto the call stack.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 107 | Location 645-646 | Added on Saturday, February 3, 2024 10:27:59 PM
+
+When you get a new problem, you don’t have to be stumped. Instead, you can ask, “Can I solve this if I use divide and conquer?”
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 92 | Location 572-572 | Added on Saturday, February 3, 2024 10:30:30 PM
+
+every recursive function has two parts: the base case, and the recursive case.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 92 | Location 572-573 | Added on Saturday, February 3, 2024 10:30:59 PM
+
+every recursive function has two parts: the base case, and the recursive case. The recursive case is when the function calls itself. The base case is when the function doesn’t call itself again ... so it doesn’t go into an infinite loop.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 134 | Location 779-780 | Added on Saturday, February 3, 2024 10:32:19 PM
+
+When you write Big O notation like O(n), it really means this. c is some fixed amount of time that your algorithm takes. It’s called the constant.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 137 | Location 797-797 | Added on Saturday, February 3, 2024 10:33:25 PM
+
+You can get the best case consistently, as long as you always choose a random element as the pivot.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 140 | Location 806-806 | Added on Saturday, February 3, 2024 10:35:10 PM
+
+I’m here to tell you that the best case is also the average case.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 140 | Location 806-807 | Added on Saturday, February 3, 2024 10:35:34 PM
+
+I’m here to tell you that the best case is also the average case. If you always choose a random element in the array as the pivot,
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 140 | Location 806-807 | Added on Saturday, February 3, 2024 10:36:02 PM
+
+I’m here to tell you that the best case is also the average case. If you always choose a random element in the array as the pivot, quicksort will complete in O(n log n) time on average.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 165 | Location 941-942 | Added on Sunday, February 4, 2024 6:25:06 PM
+
+To recap, hashes are good for Modeling relationships from one thing to another thing Filtering out duplicates Caching/memorizing data instead of making your server do work
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 170 | Location 972-972 | Added on Sunday, February 4, 2024 6:35:33 PM
+
+Looking something up in a hash table takes constant time.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 171 | Location 973-974 | Added on Sunday, February 4, 2024 6:36:22 PM
+
+That means it doesn’t matter whether your hash table has 1 element or 1 billion elements—getting something out of a hash table will take the same amount of time.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 171 | Location 974-975 | Added on Sunday, February 4, 2024 6:36:39 PM
+
+Getting an item out of an array takes constant time. It doesn’t matter how big your array is; it takes the same amount of time to get an element.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 172 | Location 977-980 | Added on Sunday, February 4, 2024 6:38:05 PM
+
+Hash tables are as fast as arrays at searching (getting a value at an index). And they’re as fast as linked lists at inserts and deletes. It’s the best of both worlds! But in the worst case, hash tables are slow at all of those. So it’s important that you don’t hit worst-case performance with hash tables.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 173 | Location 989-990 | Added on Sunday, February 4, 2024 6:41:04 PM
+
+Load factor measures how many empty slots remain in your hash table.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 173 | Location 987-987 | Added on Sunday, February 4, 2024 6:41:15 PM
+
+Hash tables use an array for storage, so you count the number of occupied slots in an array.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 173 | Location 989-989 | Added on Sunday, February 4, 2024 6:41:20 PM
+
+Load factor measures how many
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 173 | Location 989-990 | Added on Sunday, February 4, 2024 6:41:24 PM
+
+Load factor measures how many empty slots remain in your hash table.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 174 | Location 995-996 | Added on Sunday, February 4, 2024 6:43:40 PM
+
+you create a new array that’s bigger. The rule of thumb is to make an array that is twice the size.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 175 | Location 999-999 | Added on Sunday, February 4, 2024 6:45:07 PM
+
+A good rule of thumb is, resize when your load factor is greater than 0.7.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 178 | Location 1019-1020 | Added on Sunday, February 4, 2024 6:50:14 PM
+
+You can make a hash table by combining a hash function with an array.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 178 | Location 1021-1021 | Added on Sunday, February 4, 2024 6:52:49 PM
+
+Hash tables are good for modeling relationships from one item to another item.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 178 | Location 1020-1021 | Added on Sunday, February 4, 2024 6:52:54 PM
+
+Hash tables have really fast search, insert, and delete.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 178 | Location 1021-1021 | Added on Sunday, February 4, 2024 6:52:59 PM
+
+Hash tables are good for modeling relationships from one item to another item.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 178 | Location 1021-1022 | Added on Sunday, February 4, 2024 6:53:03 PM
+
+Once your load factor is greater than 0.7, it’s time to resize your hash table.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 178 | Location 1022-1022 | Added on Sunday, February 4, 2024 6:53:11 PM
+
+Hash tables are used for caching data (for example, with a web server).
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 178 | Location 1022-1023 | Added on Sunday, February 4, 2024 6:53:22 PM
+
+Hash tables are great for catching duplicates.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 184 | Location 1046-1046 | Added on Sunday, February 4, 2024 7:34:36 PM
+
+The algorithm to solve a shortest-path problem is called breadth-first search.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 186 | Location 1054-1055 | Added on Sunday, February 4, 2024 7:38:02 PM
+
+Graphs are made up of nodes and edges.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 186 | Location 1055-1055 | Added on Sunday, February 4, 2024 7:38:10 PM
+
+A node can be directly connected to many other nodes. Those nodes are called its neighbors.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 187 | Location 1058-1060 | Added on Sunday, February 4, 2024 7:40:42 PM
+
+Breadth-first search is a different kind of search algorithm: one that runs on graphs. It can help answer two types of questions: Question type 1: Is there a path from node A to node B? Question type 2: What is the shortest path from node A to node B?
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 194 | Location 1094-1095 | Added on Sunday, February 4, 2024 10:00:27 PM
+
+The queue is called a FIFO data structure: First In, First Out. In contrast, a stack is a LIFO data structure: Last In, First Out.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 199 | Location 1115-1115 | Added on Sunday, February 4, 2024 10:09:39 PM
+
+An undirected graph doesn’t have any arrows, and both nodes are each other’s neighbors.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 211 | Location 1163-1164 | Added on Wednesday, February 7, 2024 3:56:15 PM
+
+A tree is a special type of graph, where no edges ever point back.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 212 | Location 1165-1167 | Added on Wednesday, February 7, 2024 4:00:30 PM
+
+Breadth-first search tells you if there’s a path from A to B. If there’s a path, breadth-first search will find the shortest path. If you have a problem like “find the shortest X,” try modeling your problem as a graph, and use breadth-first search to solve.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 221 | Location 1209-1211 | Added on Wednesday, February 7, 2024 4:26:39 PM
+
+you used breadth-first search to find the shortest path between two points. Back then, “shortest path” meant the path with the fewest segments. But in Dijkstra’s algorithm, you assign a number or weight to each segment. Then Dijkstra’s algorithm finds the path with the smallest total weight.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 222 | Location 1216-1217 | Added on Wednesday, February 7, 2024 4:27:46 PM
+
+When you work with Dijkstra’s algorithm, each edge in the graph has a number associated with it. These are called weights.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 222 | Location 1217-1218 | Added on Wednesday, February 7, 2024 4:27:50 PM
+
+A graph with weights is called a weighted graph. A graph without weights is called an unweighted graph.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 223 | Location 1219-1220 | Added on Wednesday, February 7, 2024 4:29:58 PM
+
+To calculate the shortest path in an unweighted graph, use breadth-first search. To calculate the shortest path in a weighted graph, use Dijkstra’s algorithm. Graphs can also have cycles. A cycle looks like this.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 225 | Location 1228-1229 | Added on Wednesday, February 7, 2024 4:31:23 PM
+
+An undirected graph means that both nodes point to each other. That’s a cycle!
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 225 | Location 1229-1230 | Added on Wednesday, February 7, 2024 4:33:11 PM
+
+Dijkstra’s algorithm only works on graphs with no cycles, or on graphs with a positive weight cycle.
+==========
+﻿Grokking Algorithms (Aditya Y. Bhargava)
+- Your Highlight on page 226 | Location 1232-1234 | Added on Thursday, February 8, 2024 5:01:49 PM
+
+“I’ll give you this poster for your book,” says Alex. “It’s a poster of my favorite band, Destroyer. Or I’ll give you this rare LP of Rick Astley for your book and $5 more.” “Ooh, I’ve heard that LP has a really great song,” says Amy. “I’ll trade you my guitar or drum set for the poster or the LP.”
+==========
